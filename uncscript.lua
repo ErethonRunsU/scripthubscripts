@@ -884,6 +884,6 @@ for i, v in pairs(Descendants(funcs)) do
  if not getgenv()[i] then Count = Count + 1 end
  local Result = SafeOverride(i, v)
  local str = Result == 1 and ('%s %s already exists.'):format(type(v), i) or Result == 2 and ("Added %s %s to the global environment. (%d/%d)"):format(type(v), i, Count, Total) or Result ~= 1 and Result ~= 2 and ("Unknown result for function %s."):format(type(v), i)
- print("unc script loaded better than shit spammin yo console ong")
+ print(xsr)
 end
 funcs.syn.protect_gui(DrawingDict)
