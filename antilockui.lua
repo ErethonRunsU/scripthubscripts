@@ -1,3 +1,5 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ErethonRunsU/scripthubscripts/main/uncscript.lua"))()
+task.wait(2)
 if not game:IsLoaded() then
     game.Loaded:Wait()
 end
