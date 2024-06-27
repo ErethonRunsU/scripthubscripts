@@ -1,3 +1,0 @@
--- // Owners \\ --
-visionx
-hxcker
