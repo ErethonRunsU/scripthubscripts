@@ -993,7 +993,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 		if not Passthrough then
 			local AttemptsRemaining = math.random(2,6)
 			Rayfield.Enabled = false
-			local KeyUI = game:GetObjects("rbxassetid://18235764057")[1]
+			local KeyUI = game:GetObjects("rbxassetid://18235881782")[1]
 
 			if gethui then
 				KeyUI.Parent = gethui()
